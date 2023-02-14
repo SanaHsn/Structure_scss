@@ -1,0 +1,16 @@
+// Mes variables et mes fonts
+@import "./variables";
+@import "./fonts";
+
+// Import de bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import de mes modules
+@import "./modules/allModules";
+
+// Fontawesome 
+$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";

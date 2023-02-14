@@ -1,0 +1,32 @@
+// Import des functions et variables pour pouvoir modifier le contenu de bootstrap
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+// Variables sass classique
+$bleu : rgb(22, 58, 157);
+$rose : rgb(182, 97, 97);
+$vert : rgb(98, 166, 25);
+
+//-------------------------------------- BOOTSTRAP ------------------------------- //
+
+// Couleurs Bootstrap
+$couleur-perso : (
+    "rose" : $rose ,
+    "vert" : $vert ,
+);
+
+$theme-colors : map-merge($theme-colors , $couleur-perso);
+
+// Spacers Bootstrap
+$spacer : 5px ;
+
+$spacers : map-merge( $spacers , (
+    0 : 0px ,
+    1 : $spacer*1 ,
+    2 : $spacer*2 ,
+    3 : $spacer*3 ,
+    4 : $spacer*4 ,
+    5 : $spacer*5 ,
+    6 : $spacer*6 ,
+    7 : $spacer*7 ,
+));
